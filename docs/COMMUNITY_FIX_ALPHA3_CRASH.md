@@ -65,7 +65,7 @@ verifies the result.
   result to the executable that was tested in game.
 - Verified: `apply_guest_update_observer` emits the new literal and the
   address arithmetic evaluates to `0x127636`.
-- Verified: the executable was rebuilt from the changed source and the hook disassembles to `cmp word ptr [rdi + 0x127636], 0`, the correct address. An in-game launch test of that rebuilt executable has not been completed yet.
+- Verified: the executable was rebuilt from the changed source and the hook disassembles to `cmp word ptr [rdi + 0x127636], 0`, the correct address. That rebuilt executable (with the Talon Trot patches in tools/community_mods applied) was then launched repeatedly, including at other display settings, and every launch started without a crash; the Windows Application log recorded no faults for it. The reporter counted "well over 10" launches; the game log recorded 9 of them.
 - The cause of the intermittence (what is mapped at the bad address) is
   inferred, not observed.
 
