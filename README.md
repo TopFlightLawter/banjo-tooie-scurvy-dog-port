@@ -5,6 +5,7 @@
 > is maintained independently by CubicCanvas, is not endorsed by the original
 > author, and includes no game ROM or game assets. Players can patch their own
 > Alpha 3 executable with `tools/fix_alpha3_crash.ps1`.
+> Optional Talon Trot toggle and quiet-footstep patches: [tools/community_mods](tools/community_mods/README.md).
 
 
 # Banjo-Tooie Independent PC Recompilation
