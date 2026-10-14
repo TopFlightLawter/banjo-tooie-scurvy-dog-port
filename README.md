@@ -1,3 +1,12 @@
+> **Community fork.** This fork of
+> [some-scurvy-dog/banjo-tooie-scurvy-dog-port](https://github.com/some-scurvy-dog/banjo-tooie-scurvy-dog-port)
+> adds a fix for the intermittent Alpha 3 startup crash. See
+> [docs/COMMUNITY_FIX_ALPHA3_CRASH.md](docs/COMMUNITY_FIX_ALPHA3_CRASH.md). It
+> is maintained independently by CubicCanvas, is not endorsed by the original
+> author, and includes no game ROM or game assets. Players can patch their own
+> Alpha 3 executable with `tools/fix_alpha3_crash.ps1`.
+
+
 # Banjo-Tooie Independent PC Recompilation
 
 Disclaimer: This project is not affiliated with [BanjoRecomp](https://github.com/BanjoRecomp/BanjoRecomp) or the team that created the Banjo Kazooie Recompilation.
