@@ -2,7 +2,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
 generated = (root / "generated" / "funcs_122.c").read_text(encoding="utf-8")
-hook = "tooie_guest_update_observed(MEM_H(0X80127634, 0) != 0);"
+hook = "tooie_guest_update_observed(MEM_H(-0X7FED89CC, 0) != 0);"
 anchor = "RECOMP_FUNC void func_800A73F4(uint8_t* rdram, recomp_context* ctx) {"
 assert generated.count(anchor) == 1
 assert generated.count(hook) == 1
