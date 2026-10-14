@@ -22,7 +22,7 @@ LOCAL_ONLY = {'src/frontend_graphics_tab.cpp', 'src/frontend_file.cpp',
 # Public documentation boundary: player, contributor, build and licensing
 # material only. Plans, audits, handoffs, investigations and status logs stay
 # in ignored local/ storage.
-PUBLIC_DOCS = {'docs/ARCHITECTURE.md', 'docs/CHECKSUM_PROVENANCE.md', 'docs/CODEGEN.md',
+PUBLIC_DOCS = {'docs/ARCHITECTURE.md', 'docs/CHECKSUM_PROVENANCE.md', 'docs/CODEGEN.md', 'docs/COMMUNITY_FIX_ALPHA3_CRASH.md',
                'docs/PLAYER_GUIDE.md', 'docs/RELEASE_NOTES.md', 'docs/WINDOWS.md'}
 LOCAL_INSTRUCTIONS = {'AGENTS.md', 'CLAUDE.md'}
 
